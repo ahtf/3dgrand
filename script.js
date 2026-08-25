@@ -8,7 +8,7 @@ const CONFIG = {
   whatsappNumber: "989354888420",
   phoneNumber: "+98 935 488 8420",
   instagramUsername: "3dgrand",
-  email: "hello@3dgrand.ir",
+  email: "info@3dgrand.ir",
   defaultWhatsAppMessage: "سلام، برای سفارش/استعلام قیمت پرینت سه‌بعدی پیام می‌دهم.",
 
   products: [

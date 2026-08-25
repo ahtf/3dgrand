@@ -1,31 +1,24 @@
-# 3DGrand Static Website
+# 3DGrand Website — refined light theme
 
-یک وب‌سایت استاتیک بدون نیاز به build یا نصب پکیج.
+این نسخه بر پایه قالب قبلی ساخته شده و ساختار آن حفظ شده است؛ تغییر اصلی، هویت بصری جدید با رنگ‌های لوگوی 3DGrand است.
 
-## فایل‌ها
-- `index.html` ساختار سایت
-- `styles.css` ظاهر و Responsive
-- `script.js` اطلاعات تماس، محصولات و رفتارهای تعاملی
-- `assets/` لوگو و favicon
-- `.nojekyll` برای انتشار مستقیم در GitHub Pages
+## فایل‌های اصلی
+- `index.html`
+- `styles.css`
+- `script.js`
+- `assets/favicon.png`
+- `assets/logo.png`
+- `.nojekyll`
 
-## مهم: قبل از انتشار
-در ابتدای `script.js` بخش `CONFIG` را باز کنید و این موارد را تغییر دهید:
-- `whatsappNumber`
-- `phoneNumber`
-- `instagramUsername`
-- `email`
-- `products`
+## تغییر سریع رنگ‌ها
+در ابتدای `styles.css` متغیرهای زیر را تغییر بده:
+- `--bg` و `--bg-2`: پس‌زمینه
+- `--navy`: رنگ اصلی تیره
+- `--gold`: رنگ تأکیدی طلایی
+- `--surface`: رنگ کارت‌ها
 
-شماره واتساپ باید با کد کشور و بدون علامت + باشد. مثال: `989121234567`
+## اطلاعات تماس و محصولات
+در ابتدای `script.js` داخل `CONFIG` قابل ویرایش هستند.
 
-## تست محلی
-می‌توانید روی `index.html` دوبار کلیک کنید و سایت را در مرورگر ببینید.
-برای تست حرفه‌ای‌تر، در پوشه سایت اجرا کنید:
-
-```bash
-python -m http.server 8000
-```
-
-
-سپس `http://localhost:8000` را باز کنید.
+## GitHub Pages
+فایل‌های این پوشه را مستقیماً در root مخزن `3dgrand.github.io` قرار بده و Commit کن.
