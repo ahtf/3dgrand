@@ -5,8 +5,8 @@
    نمونه ایران: 989121234567
    ========================================================= */
 const CONFIG = {
-  whatsappNumber: "989354888420",
-  phoneNumber: "+98 935 488 8420",
+  whatsappNumber: "",
+  phoneNumber: "",
   instagramUsername: "3dgrand",
   email: "info@3dgrand.ir",
   defaultWhatsAppMessage: "سلام، برای سفارش/استعلام قیمت پرینت سه‌بعدی پیام می‌دهم.",
